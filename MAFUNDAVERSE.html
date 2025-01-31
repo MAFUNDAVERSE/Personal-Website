@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lwandile Mafunda - MAFUNDAVERSE</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="profile">
+      <img src="C:\Users\Braamfontein2\Desktop\Your-Website-folder\images\IMG_20221030_115909_502.jpg" alt="HTML5 Icon"" alt="Lwandile Mafunda" class="profile-pic">
+      <h1>Lwandile Mafunda</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#interests">Interests</a></li>
+        <li><a href="#opinions">Opinions</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home">
+    <h2>Welcome to the MAFUNDAVERSE</h2>
+    <p>Hi, I'm Lwandile Mafunda. Explore my website to learn more about me!</p>
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+
+Hi, I'm Lwandile, an aspiring Back-End Developer with a strong foundation in software development and IT administration. I hold a National Diploma in IT (Software Development) from Walter Sisulu University, and I am passionate about building efficient, scalable, and secure backend systems.
+
+With experience in administrative roles at Doves Group Holdings and Nozulu Civils, I have developed strong problem-solving and organizational skills, which I now apply to backend development. My technical expertise includes server-side programming, database management, API development, and cloud deployment.
+
+I am continuously learning and improving my skills in Python, Java, Node.js, SQL, and cloud technologies to transition fully into a backend development role. My goal is to contribute to innovative software solutions that enhance efficiency and user experience.
+
+Let's connect and build something great!</p>
+    <h3>Work Experience</h3>
+    <ul>
+      <li><strong>Administrative Controller</strong> at <em>Doves Funeral Services</em> (2022 - Present)</li>
+      <li><strong>Web Designer</strong> at <em>Nozulu Civils</em> (2015 - 2021)</li>
+    </ul>
+    <h3>Skills</h3>
+    <ul>
+      <li><strong>Programming & Problem-Solving</strong> – Strong proficiency in languages like Python, Java, JavaScript, or C#. The ability to break down complex problems and write efficient, scalable code is crucial.</li>
+      <li><strong>Version Control & Collaboration</strong> – Knowledge of Git/GitHub for code management, branching strategies, and teamwork in a development environment.</li>
+      <li><strong>Software Development Lifecycle (SDLC) & Debugging</strong> – Understanding development methodologies (Agile, Scrum, etc.), testing frameworks, and debugging tools to write maintainable and high-quality software.</li>
+    </ul>
+  </section>
+
+  <section id="interests">
+    <h2>Interests</h2>
+    <p>Here are some of my hobbies and interests:</p>
+    <ul>
+      <li><strong>Server-Side Programming & Databases</strong> – Proficiency in backend languages like Python (Django/Flask), Java (Spring Boot), JavaScript (Node.js), C# (.NET), or PHP. Strong knowledge of databases (SQL - MySQL, PostgreSQL, or NoSQL - MongoDB, Redis). Ability to design, query, and optimize database performance.</li>
+      <li><strong>APIs & Web Services</strong> – Experience with RESTful APIs and GraphQL for communication between front-end and back-end. Knowledge of authentication and security best practices (JWT, OAuth, API gateways).</li>
+      <li><strong>Cloud & Deployment</strong> – Familiarity with cloud platforms like AWS, Azure, or Google Cloud. Containerization (Docker, Kubernetes) and CI/CD pipelines for automated deployments.</li>
+    </ul>
+  </section>
+
+  <section id="opinions">
+    <h2>Opinions</h2>
+    <textarea id="opinionInput" placeholder="Write your opinion here..."></textarea>
+    <button onclick="addOpinion()">Submit Opinion</button>
+    <div id="opinionsList"></div>
+  </section>
+
+  <section id="gallery">
+    <h2>Gallery</h2>
+    <input type="file" id="imageUpload" accept="image/*" onchange="uploadImage()">
+    <div id="galleryImages"></div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Details</h2>
+    <p>Email: <a href="mailto:mafundalwandile@gmail.com">mafundalwandile@gmail.com</a></p>
+    <p>Indeed: <a href="https://www.linkedin.com/in/yourprofile">Lwandile Mafunda</a></p>
+    <p>Phone: (+27)72 805 4719</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 MAFUNDAVERSE. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
